@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture</title>
+    <style>
+       * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background-color: #f9f9f9; color: #333; }
+
+        /* Header Styling */
+        .header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 1.2rem 3rem;
+            background: #035305; color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        }
+        .header h1 { font-size: 1.8rem; font-weight: 700; cursor: pointer; }
+        .header nav a {
+            color: white; text-decoration: none; margin: 0 1rem;
+            font-weight: 600; transition: color 0.3s;
+        }
+        .header nav a:hover { color: #ffda79; }
+        .image-box {
+    position: relative;
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.image-box .para {
+    color: rgb(76, 5, 5);
+    font-size: 16px;
+    margin-right: 200px; /* Adjusted to allow space for the fixed image */
+}
+
+/* Button Styles */
+.styled-button {
+    display: block; /* Places the button on a new line */
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+
+.styled-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Awareness on Agriculture Methods</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="sustainable.html">Sustainable Agriculture</a>
+            <a href="govtsch.html">Government Schemes</a>
+            <a href="chems.html">Chemical Effects</a>
+            <a href="#about">About</a>
+        </nav>
+    </div>
+    <div class="image-box">
+        <p class="para">Are you sure what you are eating is good for your health?<br></p>
+        <button onclick="scrollToSection('education')" class="styled-button">Themes</button>
+    </div>
+</body>
+</html>
